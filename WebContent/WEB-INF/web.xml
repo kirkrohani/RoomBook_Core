@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>RoomBook Core Hotel Booking Site</display-name>
+  <context-param>
+  	<param-name>DatabasePropertiesFile</param-name>
+  	<param-value>database.properties</param-value>
+  </context-param>
   <welcome-file-list>
     <welcome-file>Lobby</welcome-file>
   </welcome-file-list>
